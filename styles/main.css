@@ -1,48 +1,78 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* body {
+  background-image: url(../images/avinash-kumar-MjehAOr30n8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  scroll-behavior: smooth;
+} */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+h1 {
+  font-size: 4rem;
 }
-body {
-	line-height: 1;
+
+h2 {
+  font-size: 3rem;
 }
-ol, ul {
-	list-style: none;
+
+h3 {
+  font-size: 2rem;
 }
-blockquote, q {
-	quotes: none;
+
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 2.2rem;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+/* NAVBAR AREA */
+
+.navbar {
+  background-color: rgb(106, 200, 236);
+  font-family: "Oswald", sans-serif;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.navbar li {
+  margin-left: 0.5rem;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar li:hover {
+  border-bottom: 1px solid black;
+}
+
+/* MAIN AREA */
+
+.carousel-caption a {
+  font-size: 3rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  text-shadow: 6px 2px 7px #ffffff81;
+}
+
+/* FOOTER AREA */
+
+footer {
+  background-color: rgb(106, 200, 236);
+  padding: 1rem;
+  line-height: 1.2rem;
+}
+
+#nav2 {
+  font-family: "Oswald", sans-serif;
+}
+
+footer h4 {
+  padding: 0.5rem;
+}
+
+footer p {
+  font-size: 0.7rem;
 }

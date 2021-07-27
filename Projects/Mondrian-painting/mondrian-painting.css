@@ -1,0 +1,122 @@
+#canvas {
+  height: 300px;
+  width: 300px;
+  background-color: ivory;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px grey;
+}
+
+/*First-row*/
+
+#first-row {
+  height: 75%;
+  width: 100%;
+}
+
+#big-rectangle {
+  height: 100%;
+  width: 75%;
+}
+
+#first-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#first-column {
+  height: 100%;
+  width: 22%;
+}
+
+#first-white-rectangle {
+  height: 41%;
+  width: 22%
+}
+
+#second-divider {
+  height: 8%;
+  width: 100%
+}
+
+#second-white-rectangle {
+  height: 51%;
+  width: 22%
+}
+
+/*Second-row*/
+
+#second-row {
+  height: 3%;
+  width: 100%
+}
+
+/*Third-row*/
+
+#third-row {
+  height: 22%;
+  width: 100%;
+}
+
+#second-column {
+  height: 100%;
+  width: 8%;
+}
+
+#small-white-rectangle {
+  height: 41%;
+  width: 100%;
+}
+
+#third-divider {
+  height: 18%;
+  width: 100%;
+}
+
+#small-yellow-rectangle {
+  height: 41%;
+  width: 100%;
+}
+
+#fourth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#third-white-rectangle {
+  height: 100%;
+  width: 64%;
+}
+
+#fifth-divider {
+  height: 100%;
+  width: 3%;
+}
+
+#blue-rectangle {
+  height: 100%;
+  width: 22%;
+}
+
+/*Color classes*/
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.yellow {
+  background-color: gold;
+}
+
+/*Other classes*/
+
+.right {
+  float: right;
+}
