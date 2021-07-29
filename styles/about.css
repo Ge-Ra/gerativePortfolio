@@ -1,17 +1,17 @@
 main h1 {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 main h3 {
-    padding: 1.5rem 0rem;
-    text-decoration: underline;
-    
+  padding: 1.5rem 0rem;
+  text-decoration: underline;
 }
 
-main ul, p {
-    font-family: "Open Sans", sans-serif;
-    padding: 0.5rem;
-    line-height: 2.2rem;
-    list-style-type: square;
-    box-sizing: border-box;
+main ul,
+p {
+  font-family: "Open Sans", sans-serif;
+  padding: 0.5rem;
+  line-height: 2.2rem;
+  list-style-type: square;
+  box-sizing: border-box;
 }

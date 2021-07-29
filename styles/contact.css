@@ -1,42 +1,29 @@
-.form-control{
-    border-radius: 1rem;
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-.contact-form form{
-    padding: 10%;
-}
-
-h3{
-    margin-bottom: 10%;
-    margin-top: -15%;
-    text-align: center;
-    color: rgb(10,20,23)
+.container {
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #6699ff 0%, rgb(192, 192, 192) 100%);
+  padding: 20px;
 }
 
 .btn {
-    width: 25%;
-    border-radius: 2rem;
-    padding: 1.5%;
-    font-weight: 600;
-    background-color: rgb(10,20,23);
-    color: white;
+  width: 20%;
 }
 
-.title-has-line {
-    position: relative;
-    margin-bottom: 2%;
-}
-
-.monospace {
-    font-family: 'Inconsolata';
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 1px;
-}
-
-h5 {
-    font-weight: 100;
-    font-family: 'Open Sans', sans-serif; 
-    color: black ;
-    margin-bottom: 10px;
+@media (max-width: 786px) {
+  #contacts {
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
