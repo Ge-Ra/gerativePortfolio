@@ -25,6 +25,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
+  line-height: 2.2rem;
 }
 
 p {
@@ -37,6 +38,7 @@ p {
 .navbar {
   background: linear-gradient(to bottom, #6699ff 0%, rgb(192, 192, 192) 100%);
   font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
 }
 
 .navbar li {
@@ -51,10 +53,24 @@ p {
 /* MAIN AREA */
 
 .carousel-caption a {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: "Open Sans", sans-serif;
   color: white;
-  text-shadow: 6px 2px 7px #ffffff81;
+  text-shadow: 5px 2px 20px #000000;
+}
+
+.carousel-caption p {
+  font-size: 2rem;
+  text-shadow: 5px 2px 20px #000000;
+}
+
+.animate__fadeIn {
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+.animate__fadeIn {
+  animation-duration: 2s;
 }
 
 /* FOOTER AREA */
@@ -70,7 +86,7 @@ footer {
 }
 
 footer h4 {
-  padding: 0.5rem;
+  padding-top: 1rem;
   font-size: 1.3rem;
 }
 

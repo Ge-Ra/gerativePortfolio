@@ -17,8 +17,18 @@ textarea {
   padding: 20px;
 }
 
+#contacts {
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
 .btn {
   width: 20%;
+}
+
+.animate__flipInX {
+  animation-duration: 1.5s;
+  animation-delay: 3s;
 }
 
 @media (max-width: 786px) {

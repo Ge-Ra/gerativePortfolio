@@ -15,3 +15,11 @@ p {
   list-style-type: square;
   box-sizing: border-box;
 }
+
+ul {
+  margin-left: 1em;
+}
+
+.animate__fadeInRight {
+  animation-delay: 1.5s;
+}
